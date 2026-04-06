@@ -1,0 +1,11 @@
+.playwright-cli/
+.venv/
+output/
+rendered_pages/
+Dummy/
+FTMO Trading/
+PO Ersel/
+shs-fatigue-calculator/
+standards-clause-assistant/
+tello-mapper/
+tello-mission-system/
