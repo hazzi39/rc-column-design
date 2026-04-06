@@ -544,7 +544,7 @@ tbody tr:nth-child(even) {
   color: var(--danger);
 }
 
-@media (min-width: 980px) {
+@media (min-width: 1240px) {
   .main-grid {
     grid-template-columns: minmax(0, 1.02fr) minmax(420px, 0.98fr);
   }
@@ -555,6 +555,22 @@ tbody tr:nth-child(even) {
 
   .secondary-grid {
     grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 1239px) {
+  .main-grid,
+  .input-groups,
+  .field-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card-header {
+    flex-direction: column;
+  }
+
+  .summary-pill {
+    align-self: flex-start;
   }
 }
 
